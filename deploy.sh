@@ -24,7 +24,7 @@ if [[ ! -d "$TARGET" ]]; then
   exit 1
 fi
 
-SKILLS=( analysis-snapshot-pdf telecom-provider-analysis industry-competitive-positions )
+SKILLS=( analysis-snapshot-pdf telecom-provider-analysis industry-competitive-positions earnings-analysis )
 
 echo "Deploying from: $REPO_DIR"
 echo "          into: $TARGET"
